@@ -201,3 +201,112 @@ Receiver
 Demodulation
      ↓
 Recovered Information
+```
+## 🔴 Advanced Level
+
+> 💡 **Tip:** At this level, move from learning individual technologies to understanding how modern wireless networks are **designed, optimized, simulated, and deployed**. Focus on 5G NR, advanced MIMO, network architecture, AI for wireless, NTN, and emerging 6G technologies.
+
+| 📡 **Topic** | 📚 **Resources** |
+|---|---|
+| 🚀 **5G Architecture** | 📖 [3GPP – 5G System Overview](https://www.3gpp.org/technologies/5g-system-overview) |
+| 📶 **5G NR Fundamentals** | 📖 [3GPP – 5G NR](https://www.3gpp.org/technologies/5g-nr)<br>🛠️ [MathWorks – 5G Toolbox](https://www.mathworks.com/products/5g.html) |
+| 🔬 **5G Physical Layer** | 📖 [3GPP – NR Specifications](https://portal.3gpp.org/Specifications.aspx)<br>🛠️ [MathWorks – 5G Toolbox](https://www.mathworks.com/products/5g.html) |
+| 🔢 **5G Numerology & Frame Structure** | 📖 [3GPP – NR Specifications](https://portal.3gpp.org/Specifications.aspx)<br>🛠️ [MathWorks – 5G Toolbox](https://www.mathworks.com/help/5g/) |
+| 📡 **Massive MIMO** | 🛠️ [MathWorks – 5G Toolbox](https://www.mathworks.com/products/5g.html) |
+| 🎯 **Beamforming & Beam Management** | 🛠️ [MathWorks – 5G Toolbox](https://www.mathworks.com/products/5g.html) |
+| 📻 **mmWave Communication** | 🛠️ [MathWorks – 5G Toolbox](https://www.mathworks.com/products/5g.html) |
+| ⚡ **URLLC & mMTC** | 📖 [3GPP – 5G System](https://www.3gpp.org/technologies/5g-system-overview) |
+| 🚗 **V2X Communication** | 📖 [3GPP – V2X](https://www.3gpp.org/technologies/v2x) |
+| ☁️ **Cloud RAN & Open RAN** | 🌐 [O-RAN Alliance](https://www.o-ran.org/) |
+| 🛰️ **Non-Terrestrial Networks (NTN)** | 📖 [3GPP – NTN Specifications](https://portal.3gpp.org/Specifications.aspx)<br>📖 [3GPP – NTN Overview](https://www.3gpp.org/) |
+| 🤖 **AI for Wireless Communications** | 🛠️ [MathWorks – AI for Wireless](https://www.mathworks.com/products/5g.html)<br>📖 [3GPP – AI/ML for NR](https://www.3gpp.org/) |
+| 🧠 **AI-Based Channel Estimation** | 🛠️ [MathWorks – Communications Toolbox](https://www.mathworks.com/products/communications.html) |
+| 🎯 **AI-Based Beam Management** | 🛠️ [MathWorks – 5G Toolbox](https://www.mathworks.com/products/5g.html) |
+| 📊 **Wireless Network Optimization** | 🛠️ [MathWorks – Wireless Network Toolbox](https://www.mathworks.com/products/wireless-network.html) |
+| 🌐 **6G Technologies** | 📖 [3GPP – 6G RAN Research](https://www.3gpp.org/) |
+| 📡 **Integrated Sensing & Communication (ISAC)** | 📖 [3GPP – RAN Research](https://www.3gpp.org/) |
+| 🛰️ **6G + NTN** | 📖 [3GPP – NTN](https://www.3gpp.org/technologies/ntn) |
+| 🧩 **Advanced Wireless Network Design** | 🛠️ [MathWorks – Wireless Network Toolbox](https://www.mathworks.com/products/wireless-network.html) |
+
+### 🔬 Advanced Projects
+
+- 📡 **5G NR Link-Level Simulator**
+  - Implement OFDM-based 5G NR transmission.
+  - Add modulation, channel coding, fading, MIMO, and receiver processing.
+  - Evaluate **BER, BLER, throughput, and spectral efficiency**.
+
+- 🎯 **AI-Based Beamforming**
+  - Simulate a massive MIMO system.
+  - Generate different user/channel conditions.
+  - Train an ML/DL model to select or optimize beamforming parameters.
+
+- 🧠 **Deep Learning for Channel Estimation**
+  - Generate wireless channel datasets.
+  - Compare traditional channel estimation with a neural-network-based approach.
+  - Evaluate performance under AWGN, Rayleigh, and multipath fading.
+
+- 🚗 **V2X Communication Simulation**
+  - Model communication between vehicles and infrastructure.
+  - Study latency, reliability, packet loss, and throughput.
+  - Investigate the effect of vehicle mobility and channel conditions.
+
+- ☁️ **Open RAN Architecture**
+  - Study the separation between RU, DU, and CU.
+  - Explore the role of RIC and xApps/rApps.
+  - Build a simplified software-defined RAN architecture.
+
+- 🛰️ **5G NR-NTN Simulation**
+  - Study satellite-to-user communication.
+  - Model propagation delay, Doppler shift, and link budget.
+  - Analyze the impact of satellite mobility on the wireless link.
+
+- 📡 **Integrated Sensing & Communication**
+  - Design a simplified system that performs both communication and sensing.
+  - Investigate how the transmitted waveform can support both functions.
+
+- 🌐 **6G Wireless Research Project**
+  - Study emerging concepts such as:
+    - AI-native networks
+    - ISAC
+    - NTN integration
+    - Extremely large-scale MIMO
+    - Intelligent surfaces
+    - Advanced positioning
+    - AI/ML-enabled radio interfaces
+
+> 💡 **Advanced Focus:** Modern 3GPP work is already exploring **AI/ML for NR, NTN, ISAC, advanced MIMO, and 6G radio**. These topics are therefore useful directions after establishing a strong foundation in 5G NR and wireless communications. :contentReference[oaicite:0]{index=0}
+
+### 🧭 Advanced Learning Path
+
+```text
+5G Architecture
+       ↓
+5G NR
+       ↓
+5G Physical Layer
+       ↓
+Massive MIMO
+       ↓
+Beamforming
+       ↓
+mmWave
+       ↓
+Advanced 5G Applications
+       ├── URLLC
+       ├── mMTC
+       └── V2X
+       ↓
+Open RAN / Cloud RAN
+       ↓
+AI for Wireless
+       ├── Channel Estimation
+       ├── Beam Management
+       ├── Resource Allocation
+       └── Network Optimization
+       ↓
+Non-Terrestrial Networks
+       ↓
+Integrated Sensing & Communication
+       ↓
+6G Research
+```
