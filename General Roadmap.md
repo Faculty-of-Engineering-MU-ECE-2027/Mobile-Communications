@@ -1,4 +1,4 @@
-# 📱 Mobile Communication Roadmap
+# 📱 Wireless Communication Roadmap
 
 > A structured roadmap to learn **Mobile Communication and Wireless Communication** from the fundamentals of signals and communication systems to advanced topics such as **4G LTE, 5G NR, Massive MIMO, Beamforming, AI for Wireless, and 6G**.
 
