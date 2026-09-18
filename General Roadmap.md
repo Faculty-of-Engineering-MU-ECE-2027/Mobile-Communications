@@ -38,7 +38,7 @@ This roadmap is divided into **three levels**:
 
 ### 📐 1. Mathematical & Signal Processing Tools
 
-| Tool | Main Use |
+| Topic | Resources ||
 |---|---|---|
 | 🧮 [MATLAB](https://www.mathworks.com/products/matlab.html) | Mathematical modeling, signal generation, modulation, demodulation, and communication-system simulation |
 | 🐍 [Python](https://www.python.org/) | Communication-system programming and signal processing | 
