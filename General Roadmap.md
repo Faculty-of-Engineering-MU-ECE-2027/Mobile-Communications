@@ -38,37 +38,37 @@ This roadmap is divided into **three levels**:
 
 ### 📐 1. Mathematical & Signal Processing Tools
 
-| Tool | Main Use | Level |
+| Tool | Main Use |
 |---|---|---|
-| 🧮 [MATLAB](https://www.mathworks.com/products/matlab.html) | Mathematical modeling, signal generation, modulation, demodulation, and communication-system simulation | 🟢 Beginner |
-| 🐍 [Python](https://www.python.org/) | Communication-system programming and signal processing | 🟢 Beginner |
-| 🔢 [NumPy](https://numpy.org/) | Numerical computation and signal manipulation | 🟢 Beginner |
-| 📊 [Matplotlib](https://matplotlib.org/) | Plotting signals, spectra, BER curves, and constellation diagrams | 🟢 Beginner |
-| 🔬 [SciPy](https://scipy.org/) | Signal processing, filtering, Fourier analysis, and scientific computing | 🟢 Beginner |
+| 🧮 [MATLAB](https://www.mathworks.com/products/matlab.html) | Mathematical modeling, signal generation, modulation, demodulation, and communication-system simulation |
+| 🐍 [Python](https://www.python.org/) | Communication-system programming and signal processing | 
+| 🔢 [NumPy](https://numpy.org/) | Numerical computation and signal manipulation | 
+| 📊 [Matplotlib](https://matplotlib.org/) | Plotting signals, spectra, BER curves, and constellation diagrams | 
+| 🔬 [SciPy](https://scipy.org/) | Signal processing, filtering, Fourier analysis, and scientific computing | 
 
 ---
 
 ### 📡 2. Communication System Simulation
 
-| Tool | Main Use | Level |
+| Tool | Main Use | 
 |---|---|---|
-| 📶 [MATLAB Communications Toolbox](https://www.mathworks.com/products/communications.html) | Modulation, demodulation, coding, channels, BER, MIMO, synchronization, and complete communication-link simulation | 🟢 → 🔴 |
-| 🔲 [Simulink](https://www.mathworks.com/products/simulink.html) | Block-based modeling of complete communication systems | 🟡 → 🔴 |
-| 📊 [GNU Radio](https://www.gnuradio.org/) | Building and simulating transmitter/receiver chains using signal-processing blocks | 🟡 → 🔴 |
-| 🧪 [Scilab](https://www.scilab.org/) | Free numerical computing and communication-system experimentation | 🟢 → 🟡 |
-| 📡 [Scilab Communication Toolbox](https://atoms.scilab.org/toolboxes/comm_tbx/0.3.1) | Modulation and demodulation algorithm prototyping | 🟡 |
+| 📶 [MATLAB Communications Toolbox](https://www.mathworks.com/products/communications.html) | Modulation, demodulation, coding, channels, BER, MIMO, synchronization, and complete communication-link simulation |
+| 🔲 [Simulink](https://www.mathworks.com/products/simulink.html) | Block-based modeling of complete communication systems | 
+| 📊 [GNU Radio](https://www.gnuradio.org/) | Building and simulating transmitter/receiver chains using signal-processing blocks | 
+| 🧪 [Scilab](https://www.scilab.org/) | Free numerical computing and communication-system experimentation | 
+| 📡 [Scilab Communication Toolbox](https://atoms.scilab.org/toolboxes/comm_tbx/0.3.1) | Modulation and demodulation algorithm prototyping | 
 
 ---
 
 ### 📻 3. Software-Defined Communication Systems
 
-| Tool | Main Use | Level |
+| Tool | Main Use | 
 |---|---|---|
-| 📡 [GNU Radio](https://www.gnuradio.org/) | Software-defined radio and complete transmitter/receiver chains | 🟡 → 🔴 |
-| 📻 [GNU Radio Companion](https://wiki.gnuradio.org/index.php/Main_Page) | Graphical construction of communication-system flowgraphs | 🟡 → 🔴 |
-| 📡 [RTL-SDR](https://www.rtl-sdr.com/) | Receiving and analyzing real RF signals | 🟡 → 🔴 |
-| 📡 [ADALM-PLUTO](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html) | Practical transmitter/receiver and SDR experiments | 🔴 |
-| 📡 [USRP](https://www.ettus.com/) | Advanced software-defined communication-system research | 🔴 |
+| 📡 [GNU Radio](https://www.gnuradio.org/) | Software-defined radio and complete transmitter/receiver chains | 
+| 📻 [GNU Radio Companion](https://wiki.gnuradio.org/index.php/Main_Page) | Graphical construction of communication-system flowgraphs | 
+| 📡 [RTL-SDR](https://www.rtl-sdr.com/) | Receiving and analyzing real RF signals | 
+| 📡 [ADALM-PLUTO](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html) | Practical transmitter/receiver and SDR experiments | 
+| 📡 [USRP](https://www.ettus.com/) | Advanced software-defined communication-system research | 
 
 > 💡 **Note:** GNU Radio can also be used without hardware as a simulation/development environment, allowing you to build complete transmitter and receiver chains before moving to real SDR hardware. :contentReference[oaicite:1]{index=1}
 
