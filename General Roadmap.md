@@ -38,8 +38,8 @@ This roadmap is divided into **three levels**:
 
 ### 📐 1. Mathematical & Signal Processing Tools
 
-| Topic | Resources ||
-|---|---|---|
+| Topic | Resources |
+|---|---|
 | 🧮 [MATLAB](https://www.mathworks.com/products/matlab.html) | Mathematical modeling, signal generation, modulation, demodulation, and communication-system simulation |
 | 🐍 [Python](https://www.python.org/) | Communication-system programming and signal processing | 
 | 🔢 [NumPy](https://numpy.org/) | Numerical computation and signal manipulation | 
@@ -51,7 +51,7 @@ This roadmap is divided into **three levels**:
 ### 📡 2. Communication System Simulation
 
 | Tool | Main Use | 
-|---|---|---|
+|---|---|
 | 📶 [MATLAB Communications Toolbox](https://www.mathworks.com/products/communications.html) | Modulation, demodulation, coding, channels, BER, MIMO, synchronization, and complete communication-link simulation |
 | 🔲 [Simulink](https://www.mathworks.com/products/simulink.html) | Block-based modeling of complete communication systems | 
 | 📊 [GNU Radio](https://www.gnuradio.org/) | Building and simulating transmitter/receiver chains using signal-processing blocks | 
@@ -63,7 +63,7 @@ This roadmap is divided into **three levels**:
 ### 📻 3. Software-Defined Communication Systems
 
 | Tool | Main Use | 
-|---|---|---|
+|---|---|
 | 📡 [GNU Radio](https://www.gnuradio.org/) | Software-defined radio and complete transmitter/receiver chains | 
 | 📻 [GNU Radio Companion](https://wiki.gnuradio.org/index.php/Main_Page) | Graphical construction of communication-system flowgraphs | 
 | 📡 [RTL-SDR](https://www.rtl-sdr.com/) | Receiving and analyzing real RF signals | 
