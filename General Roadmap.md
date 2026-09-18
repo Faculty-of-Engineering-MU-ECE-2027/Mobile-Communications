@@ -30,6 +30,102 @@ This roadmap is divided into **three levels**:
 - 🟡 **Intermediate** — Understand wireless channels, cellular systems, OFDM, MIMO, and 2G/3G/4G technologies.
 - 🔴 **Advanced** — Explore 5G NR, Massive MIMO, Beamforming, mmWave, AI for Wireless, NTN, and 6G.
 
+## 🛠️ Tools & Software
+
+> 💡 **Tip:** You do not need to learn all of these tools at once. Start with **Python and MATLAB**, then gradually introduce communication-system simulation, RF tools, and SDR platforms as you reach the corresponding roadmap levels.
+
+## 🛠️ Communication Systems Tools
+
+### 📐 1. Mathematical & Signal Processing Tools
+
+| Tool | Main Use | Level |
+|---|---|---|
+| 🧮 [MATLAB](https://www.mathworks.com/products/matlab.html) | Mathematical modeling, signal generation, modulation, demodulation, and communication-system simulation | 🟢 Beginner |
+| 🐍 [Python](https://www.python.org/) | Communication-system programming and signal processing | 🟢 Beginner |
+| 🔢 [NumPy](https://numpy.org/) | Numerical computation and signal manipulation | 🟢 Beginner |
+| 📊 [Matplotlib](https://matplotlib.org/) | Plotting signals, spectra, BER curves, and constellation diagrams | 🟢 Beginner |
+| 🔬 [SciPy](https://scipy.org/) | Signal processing, filtering, Fourier analysis, and scientific computing | 🟢 Beginner |
+
+---
+
+### 📡 2. Communication System Simulation
+
+| Tool | Main Use | Level |
+|---|---|---|
+| 📶 [MATLAB Communications Toolbox](https://www.mathworks.com/products/communications.html) | Modulation, demodulation, coding, channels, BER, MIMO, synchronization, and complete communication-link simulation | 🟢 → 🔴 |
+| 🔲 [Simulink](https://www.mathworks.com/products/simulink.html) | Block-based modeling of complete communication systems | 🟡 → 🔴 |
+| 📊 [GNU Radio](https://www.gnuradio.org/) | Building and simulating transmitter/receiver chains using signal-processing blocks | 🟡 → 🔴 |
+| 🧪 [Scilab](https://www.scilab.org/) | Free numerical computing and communication-system experimentation | 🟢 → 🟡 |
+| 📡 [Scilab Communication Toolbox](https://atoms.scilab.org/toolboxes/comm_tbx/0.3.1) | Modulation and demodulation algorithm prototyping | 🟡 |
+
+---
+
+### 📻 3. Software-Defined Communication Systems
+
+| Tool | Main Use | Level |
+|---|---|---|
+| 📡 [GNU Radio](https://www.gnuradio.org/) | Software-defined radio and complete transmitter/receiver chains | 🟡 → 🔴 |
+| 📻 [GNU Radio Companion](https://wiki.gnuradio.org/index.php/Main_Page) | Graphical construction of communication-system flowgraphs | 🟡 → 🔴 |
+| 📡 [RTL-SDR](https://www.rtl-sdr.com/) | Receiving and analyzing real RF signals | 🟡 → 🔴 |
+| 📡 [ADALM-PLUTO](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html) | Practical transmitter/receiver and SDR experiments | 🔴 |
+| 📡 [USRP](https://www.ettus.com/) | Advanced software-defined communication-system research | 🔴 |
+
+> 💡 **Note:** GNU Radio can also be used without hardware as a simulation/development environment, allowing you to build complete transmitter and receiver chains before moving to real SDR hardware. :contentReference[oaicite:1]{index=1}
+
+---
+
+### 📈 4. Communication System Analysis
+
+| Tool | What You Can Analyze |
+|---|---|
+| 📊 [MATLAB](https://www.mathworks.com/products/matlab.html) | Time-domain and frequency-domain signals |
+| 📶 [Communications Toolbox](https://www.mathworks.com/products/communications.html) | BER, BLER, PER, throughput, modulation, coding, channels |
+| 🔲 [Simulink](https://www.mathworks.com/products/simulink.html) | End-to-end communication-system behavior |
+| 🐍 [Python](https://www.python.org/) | Custom communication algorithms and simulations |
+| 📊 [GNU Radio](https://www.gnuradio.org/) | Real-time signal-processing and transmitter/receiver chains |
+
+---
+
+### 🧭 Recommended Learning Path
+
+```text
+                    📡 COMMUNICATION SYSTEMS
+                              │
+                              ▼
+                    🟢 BASIC SIMULATION
+                              │
+                    ┌─────────┴─────────┐
+                    ▼                   ▼
+                 MATLAB              Python
+                    │                   │
+                    ▼                   ▼
+          Signal Processing      NumPy / SciPy
+                    │                   │
+                    └─────────┬─────────┘
+                              ▼
+                   🟡 COMMUNICATION
+                       SIMULATION
+                              │
+                              ▼
+                MATLAB Communications
+                       Toolbox
+                              │
+                              ▼
+                          Simulink
+                              │
+                              ▼
+                    🔴 PRACTICAL SYSTEMS
+                              │
+                              ▼
+                        GNU Radio
+                              │
+                              ▼
+                         SDR
+                              │
+                    ┌─────────┼─────────┐
+                    ▼         ▼         ▼
+                 RTL-SDR   PlutoSDR   USRP
+```
 ---
 
 ## 🟢 Beginner Level
